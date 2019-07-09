@@ -48,13 +48,10 @@ public class AddUserActivity extends AppCompatActivity {
         });
 
 
-        setNickName.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(AddUserActivity.this, MainActivity.class);
-                intent.putExtra("username", userNickName.getText().toString());
-                startActivity(intent);
-            }
+        setNickName.setOnClickListener(v -> {
+            Intent intent = new Intent(AddUserActivity.this, MainActivity.class);
+            intent.putExtra("username", userNickName.getText().toString());
+            startActivity(intent);
         });
     }
 }
