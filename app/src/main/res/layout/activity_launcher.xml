@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.webrtc.chat.LauncherActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+       >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-200dp"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:text="Shatify"
+            android:textColor="#000"
+            android:textSize="40sp"></TextView>
+
+        <Button
+            android:id="@+id/btnopen1"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/btn_rounded"
+            android:text="Commencez votre appel video" />
+
+        <Button
+            android:id="@+id/btnopen2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/btn_rounded"
+            android:text="Commencez votre discussion text"
+            android:textColor="#ffff"
+            />
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
